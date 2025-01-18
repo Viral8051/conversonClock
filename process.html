@@ -1,0 +1,718 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta charset="utf-8">
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Conversion Clock</title>
+    <link rel="shortcut icon" href="images/conversionLOGO.png" type="image/x-icon">
+    <!-- style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- style -->
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- responsive -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <!-- font-awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- font-awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+
+    <link href="css/effects/set2.css" rel="stylesheet" type="text/css">
+    <link href="css/effects/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/effects/component.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <!-- header -->
+        <header role="header">
+            <div id="main-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 headercolrow">
+                            <div id="logo">
+                                <!-- logo -->
+                                <h1>
+                                    <a href="index.html" title="CJWIT"><img src="images/conversionLOGO.png" title="CJWIT" alt="CJWIT" /></a>
+                                </h1>
+                                <!-- logo -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 tagline">
+                            <h1 class="brand brand-name text-center" style="color:#fff;">
+                                <span class="bold ">Conversion Clock</span>
+                                <h3>Redeem Your Time</h3>
+                            </h1>
+                        </div>
+
+                        <div class="col-md-2 mainmenu">
+                            <span class="head-search" id="headSearch"><a class="js-search" id="search" href="#"><i class="search"><span class="eye"></span></i>
+                            </a>
+                            </span>
+                            <nav role="header-nav" class="navy">
+                                <ul>
+                                    <li><a href="index.html" title="Work"><span class="navicon"><i class="fas fa-cogs"></i></span>Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">step 1</a></li>
+                                            <li><a href="#">step 2</a></li>
+                                            <li><a href="#">step 3</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="about.html" title="About"><span class="navicon"><i class="fas fa-address-card"></i></span>About</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">step 4</a></li>
+                                            <li><a href="#">step 5</a></li>
+                                            <li> <a href="#">step 6</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="process.html" title="Blog"><span class="navicon"><i class="fas fa-microchip"></i></span>Process</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">step 7</a></li>
+                                            <li><a href="#">step 8</a></li>
+                                            <li><a href="#">step 9</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="pricing.html" title="Contact"><span class="navicon"><i class="fas fa-tag"></i></span>Pricing</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">step 10</a></li>
+                                            <li><a href="#">step 11</a></li>
+                                            <li><a href="#">step 12</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="contact.html" title="Work"><span class="navicon"><i class="fas fa-id-card-alt"></i></span>Contact</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">step 13</a></li>
+                                            <li><a href="#">step 14</a></li>
+                                            <li> <a href="#">step 15</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="searchs" style="display: none;">
+                <i class="fa fa-close" id="cl-search" style="font-size:24px;color: #fff;float: right;"></i>
+                <div id="search-box">
+                    <label style="color: #fff;font-size: 20px;">Search Here:</label><br>
+                    <form role="search" method="get" action="">
+                        <input type="search" name="s" style="width: 70%;height: 50px;padding: 0 20px;" value="" placeholder="Search Here">
+                    </form>
+                </div>
+                <!--<i class="fa fa-close" id="cl-search" style="font-size:24px;color: #fff;float: right;"></i>-->
+                <!--<div id="search-box">-->
+                <!--    <label style="color: #fff;font-size: 20px;">Search Here:</label><br>-->
+                <!--    <input type="search" id="searchPostTextBox" name="searchPostTextBox" style="width: 70%;height: 50px;padding: 0 20px;" placeholder="Search Here">-->
+                <!--</div>-->
+            </div>
+        </header>
+        <!-- header -->
+
+        <nav class="navbar navbar-inverse navbar-static-top navbar-custom p-bar" role="navigation">
+            <div class="container">
+                <div class="row progress-row">
+                    <div class="col-md-2 col-xs-12 progess-borders startPage">
+                        <a href="./index.html">
+                            <h5 class="text-center">Services</h5>
+                        </a>
+                        <div class="progress" id="start_progressbar">
+                            <a href="./index.html">
+                                <div id="start_step1" class="progress-bar progress-bar-grey progress-bar-blue topprogressbar" role="progressbar" style="width:33.33%">
+                                    <span claas="numb-hvr" style="color:#000">1</span>
+                                </div>
+                            </a>
+                            <a href="./index.html">
+                                <div id="start_step2" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;">
+                                    <span claas="numb-hvr" style="color:#000">2</span>
+                                </div>
+                            </a>
+                            <a href="./index.html">
+                                <div id="start_step3" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;border-right:2px solid #000;">
+                                    <span claas="numb-hvr" style="color:#000">3</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="./index.html">
+                            <h5 class="text-center">What You Get</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-md-2 col-xs-12 progess-borders vlog">
+                        <a id="org-steps" href="./about.html">
+                            <h5 class="text-center">About </h5>
+                        </a>
+                        <div class="progress">
+                            <a href="./about.html">
+                                <div id="start_step4" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%">
+                                    <span style="color:#000">4</span>
+                                </div>
+                            </a>
+                            <a href="./about.html">
+                                <div id="start_step5" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;">
+                                    <span style="color:#000">5</span>
+                                </div>
+                            </a>
+                            <a href="./about.html">
+                                <div id="start_step6" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;border-right:2px solid #000;">
+                                    <span style="color:#000">6</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a id="org-steps" href="./about.html">
+                            <h5 class="text-center">Who We Are </h5>
+                        </a>
+                    </div>
+
+                    <div class="col-md-2 col-xs-12 progess-borders about active">
+                        <a href="./about.html">
+                            <h5 class=" text-center">Process</h5>
+                        </a>
+                        <div class="progress">
+                            <a href="./about.html">
+                                <div id="start_step7" class="progress-bar progress-bar-white activated topprogressbar" role="progressbar" style="width:33.33%">
+                                    <span style="color:#000">7</span>
+                                </div>
+                            </a>
+                            <a href="./about.html">
+                                <div id="start_step8" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;">
+                                    <span style="color:#000">8</span>
+                                </div>
+                            </a>
+                            <a href="./about.html">
+                                <div id="start_step9" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;border-right:2px solid #000;">
+                                    <span style="color:#000">9</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="./about.html">
+                            <h5 class=" text-center">How We Do It</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-md-2 col-xs-12 progess-borders social">
+                        <a href="./pricing.html">
+                            <h5 class=" text-center">Pricing</h5>
+                        </a>
+                        <div class="progress">
+                            <a href="./pricing.html">
+                                <div id="start_step10" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%">
+                                    <span style="color:#000">10</span>
+                                </div>
+                            </a>
+                            <a href="./pricing.html">
+                                <div id="start_step11" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;">
+                                    <span style="color:#000">11</span>
+                                </div>
+                            </a>
+                            <a href="./pricing.html">
+                                <div id="start_step12" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;border-right:2px solid #000;">
+                                    <span style="color:#000">12</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="./pricing.html">
+                            <h5 class=" text-center">How You Get It</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-md-2 col-xs-12 progess-borders academy">
+                        <a href="./contact.html">
+                            <h5 class=" text-center">Contact</h5>
+                        </a>
+                        <div class="progress">
+                            <a href="./contact.html">
+                                <div id="start_step13" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%">
+                                    <span style="color:#000">13</span>
+                                </div>
+                            </a>
+                            <a href="./contact.html">
+                                <div id="start_step14" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;">
+                                    <span style="color:#000">14</span>
+                                </div>
+                            </a>
+                            <a href="./contact.html">
+                                <div id="start_step15" class="progress-bar progress-bar-white topprogressbar" role="progressbar" style="width:33.33%;border-left:2px solid #000;border-right:2px solid #000;">
+                                    <span style="color:#000">15</span>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="./contact.html">
+                            <h5 class=" text-center">How We Connect</h5>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- slider -->
+        <div class="stepslide" data-slick='{"slidesToShow ": 1, "slidesToScroll ": 1}'>
+            <!-- slide -->
+            <div class="res-step-slide7">
+                <div class="step-slider-inner">
+                    <div class="steps-top">
+                        <p>Process - 7/15</p>
+                    </div>
+                    <div class="step-bottom">
+                        <form action="#">
+                            <label for="stepBotttomCheck">OUR SYSTEM</label>
+                            <input type="checkbox" name="step-bottom-check" id="stepBotttomCheck7">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide -->
+            <div class="res-step-slide8">
+                <div class="step-slider-inner">
+                    <div class="steps-top">
+                        <p>Process - 8/15</p>
+                    </div>
+                    <div class="step-bottom">
+                        <form action="#">
+                            <label for="stepBotttomCheck">OUR S.O.P</label>
+                            <input type="checkbox" name="step-bottom-check" id="stepBotttomCheck8">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide -->
+            <div class="res-step-slide9">
+                <div class="step-slider-inner">
+                    <div class="steps-top">
+                        <p>Process - 9/15</p>
+                    </div>
+                    <div class="step-bottom">
+                        <form action="#">
+                            <label for="stepBotttomCheck">OUR FOCUS</label>
+                            <input type="checkbox" name="step-bottom-check" id="stepBotttomCheck9">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- slide end -->
+
+        </div>
+        <!-- slider -->
+        <!-- main -->
+        <main role="main-home-wrapper">
+            <div id="main-container">
+                <div class="page-container">
+                    <div class="container">
+                        <div class="row accordianrow">
+                            <div class="col-md-12 col-sm-12">
+
+                                <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="step-7 panel" id="seraccoSeven">
+                                        <div class="panel-heading" role="tab" id="headingSeven">
+                                            <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                                    <strong>Step 7</strong> - OUR SYSTEM
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseSeven" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSeven">
+                                            <div class="panel-body">
+                                                <div class="accor-body-inner">
+                                                    <div class="step-head Seven">
+
+                                                        <h2>EVERYTHING WE DO IS AN EXPRESSION OF THIS ONE BELIEF,<br> NAMELY, THAT... </h2>
+                                                        <p>"YOU WERE BORN TO CONVEY A LIFE TRANSFORMING MESSAGE."</p>
+
+                                                    </div>
+                                                    <div class="step7-content row">
+                                                        <h2>INTRODUCING...</h2>
+                                                        <div class="step7-left col-md-7">
+                                                            <div class="step-7-left-inner">
+                                                                <div class="step-7-left-img one">
+                                                                    <img src="./images/screw-1.png" alt="">
+                                                                    <div class="step-7-left-content">
+                                                                        <img src="./images/screw-1-04.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="step-7-left-img two">
+                                                                    <img src="./images/screw-1.png" alt="">
+                                                                    <div class="step-7-left-content">
+                                                                        <img src="./images/screw-1-02.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="step-7-left-img three">
+                                                                    <img src="./images/screw-1.png" alt="">
+                                                                    <div class="step-7-left-content">
+                                                                        <img src="./images/screw-1-01.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="step-7-left-img-small">
+                                                                    <img src="./images/screw-small.png" alt="">
+                                                                    <div class="step-7-leftsmall-content">
+                                                                        <img src="./images/screw-1-03.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step7-right col-md-5">
+                                                            <div class="step-7-right-inner">
+                                                                <h2>Build Your Brand</h2>
+                                                                <p>Overview - Discover Your Clear Message</p>
+                                                                <ul>
+                                                                    <li>1.1.0 - Premise</li>
+                                                                    <li>1.2.0 - People</li>
+                                                                    <li>1.3.0 - Problem</li>
+                                                                    <li>1.4.0 - Problem</li>
+                                                                    <li>1.5.0 - Problem</li>
+                                                                </ul>
+                                                                <p>Review - More Innovation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end of panel -->
+
+                                    <div class="step-8  panel" id="seraccoEight">
+                                        <div class="panel-heading" role="tab" id="headingEight">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                    <strong>Step 8</strong> - OUR S.O.P
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                                            <div class="panel-body">
+                                                <div class="accor-body-inner">
+                                                    <div class="step-head eight">
+
+                                                        <h2>OUR STANDARD OPERATING PROCEDURES (S.O.P's) ARE:</h2>
+
+                                                    </div>
+                                                    <div class="step8-content row">
+                                                        <div class="step8-left-content col-md-7 ">
+                                                            <div class="intro-accord">
+                                                                <ul class="sopmainintro" id="accordionsopmainintro">
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionsopmainintro" href="#sopmainintro" aria-expanded="true">INTRO - How To Broker Heaven To Earth</a>
+
+                                                                        <ul id="sopmainintro" class="collapse collapse">
+                                                                            <li>
+                                                                                <p>We are a Culture Creation Company, so we figured, we oughtta share our culture with you. "Thy kingdom come, Thy will be done in earth, as it is in heaven." (Mat. 6:10) is
+                                                                                    what we are all about. We aim for what we call a Kingdom Culture in everything we say and do..</p>
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <div class="we-create-sec">
+                                                                <h3>MEDITATION</h3>
+                                                                <p>Think upon heavenly things</p>
+                                                                <h3>REVELATION</h3>
+                                                                <p>Get insights from heaven</p>
+                                                                <h3>CALCULATION</h3>
+                                                                <p>In faith calculate what it would take way before you have all the resources readliy available.</p>
+                                                                <h3>OPERATION</h3>
+                                                                <p>Take action. Build it. Break it. Improve it. As fast as possible. </p>
+                                                                <ul class="sopmaincon" id="accordionsopmaincon">
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionsopmaincon" href="#sopmaincon1" aria-expanded="true"><strong>1. MEDITATION</strong></a>
+
+                                                                        <ul id="sopmaincon1" class="collapse collapse in">
+                                                                            <li>
+                                                                                <img src="./images/Realm-img.png" alt="">
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionsopmaincon" href="#sopmaincon2" aria-expanded="true"><strong>2. REVELATION</strong></a>
+
+                                                                        <ul id="sopmaincon2" class="collapse collapse">
+                                                                            <li>
+                                                                                <img src="./images/Realm-img.png" alt="">
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionsopmaincon" href="#sopmaincon3" aria-expanded="true"><strong>3. CALCULATION</strong></a>
+
+                                                                        <ul id="sopmaincon3" class="collapse collapse">
+                                                                            <li>
+                                                                                <img src="./images/Realm-img.png" alt="">
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionsopmaincon" href="#sopmaincon4" aria-expanded="true"><strong>4. OPERATION</strong></a>
+
+                                                                        <ul id="sopmaincon4" class="collapse collapse">
+                                                                            <li>
+                                                                                <img src="./images/Realm-img.png" alt="">
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step3-vid col-md-5">
+                                                            <video src="./images/Mountains - 61818 (1).mp4" controls poster="./images/step2-vid.png">
+                                                            <a href=""></a> 
+                                                            </video>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end of panel -->
+
+                                    <div class="step-9  panel" id="seraccoNine">
+                                        <div class="panel-heading" role="tab" id="headingNine">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                    <strong>Step 9</strong> - OUR FOCUS
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                                            <div class="panel-body">
+                                                <div class="accor-body-inner step9">
+                                                    <div class="step-head six">
+
+                                                        <h2>OUR FOCUS IS ON... YOUR PROGRESS, AS A LEADER!</h2>
+
+                                                    </div>
+                                                    <div class="step9-content row">
+                                                        <div class="step9-left-content col-md-12">
+                                                            <div class="intro-accord">
+                                                                <ul class="Ourfocus" id="accordionOurfocusintro">
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionOurfocusintro" href="#Ourfocusintro" aria-expanded="true">intro</a>
+
+                                                                        <ul id="Ourfocusintro" class="collapse collapse">
+                                                                            <li>
+                                                                                <p>WE HELP YOU TO CREATE A PRODUCT PEOPLE LOVE THAT SOLVES THE PROBLEM PEOPLE HAVE</p>
+                                                                                <div class="focusintro-inner">
+
+                                                                                    <div class="step9-vid">
+                                                                                        <a href=""><img src="./images/email-automation.png" alt=""></a>
+                                                                                        <div class="step9-download">
+                                                                                            <a href="#" class="step9-down-link"><span><i class="fas fa-cloud-download-alt" aria-hidden="true"></i></span>Download</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="step9-vid">
+                                                                                        <video src="./images/Mountains - 61818 (1).mp4" controls="" poster="./images/step2-vid.png">
+                                                                                            <a href=""></a> 
+                                                                                            </video>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionOurfocusintro" href="#Ourfocusin1" aria-expanded="true">1. INCREASE YOUR COMPETENCE AS A CONNECTOR</a>
+
+                                                                        <ul id="Ourfocusin1" class="collapse collapse ">
+                                                                            <li>
+                                                                                <div class="focusintro-inner">
+
+                                                                                    <div class="step9-vid">
+                                                                                        <a href=""><img src="./images/componant-connecter.png" alt=""></a>
+                                                                                        <div class="step9-download">
+                                                                                            <a href="#" class="step9-down-link"><span><i class="fas fa-cloud-download-alt" aria-hidden="true"></i></span>Download</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="step9-vid">
+                                                                                        <video src="./images/Mountains - 61818 (1).mp4" controls="" poster="./images/step2-vid.png">
+                                                                                            <a href=""></a> 
+                                                                                            </video>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionOurfocusintro" href="#Ourfocusin2" aria-expanded="true">2. BUILD A LIST THAT LOVES HEARING FROM YOU (QUALITY)</a>
+
+                                                                        <ul id="Ourfocusin2" class="collapse collapse">
+                                                                            <li>
+
+                                                                                <div class="focusintro-inner">
+
+                                                                                    <div class="step9-vid">
+                                                                                        <a href=""><img src="./images/contact-wheel.png" alt=""></a>
+                                                                                        <div class="step9-download">
+                                                                                            <a href="#" class="step9-down-link"><span><i class="fas fa-cloud-download-alt" aria-hidden="true"></i></span>Download</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="step9-vid">
+                                                                                        <video src="./images/Mountains - 61818 (1).mp4" controls="" poster="./images/step2-vid.png">
+                                                                                            <a href=""></a> 
+                                                                                            </video>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+                                                                    <li class="panel"> <a data-toggle="collapse" data-parent="#accordionOurfocusintro" href="#Ourfocusin3" aria-expanded="true">3. MOVE UP THE LIST BUILDING MOUNTAIN (QUANTITY)</a>
+
+                                                                        <ul id="Ourfocusin3" class="collapse collapse">
+                                                                            <li>
+                                                                                <p>WE HELP YOU TO CREATE A PRODUCT PEOPLE LOVE THAT SOLVES THE PROBLEM PEOPLE HAVE</p>
+                                                                                <div class="focusintro-inner">
+
+                                                                                    <div class="step9-vid">
+                                                                                        <a href=""><img src="./images/building-mountain.png" alt=""></a>
+                                                                                        <div class="step9-download">
+                                                                                            <a href="#" class="step9-down-link"><span><i class="fas fa-cloud-download-alt" aria-hidden="true"></i></span>Download</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="step9-vid">
+                                                                                        <video src="./images/Mountains - 61818 (1).mp4" controls="" poster="./images/step2-vid.png">
+                                                                                            <a href=""></a> 
+                                                                                            </video>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- <div class="step3-vid col-md-6">
+                                                            <video src="./images/Mountains - 61818 (1).mp4" controls poster="./images/step2-vid.png">
+                                                            <a href=""></a> 
+                                                            </video>
+
+                                                        </div> -->
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end of panel -->
+
+
+                                </div>
+                                <!-- end of #accordion -->
+
+                            </div>
+                            <!-- end of wrap -->
+                        </div>
+
+                        <div class="row navbtn">
+                            <div class="col-md-12 nav-btn">
+                                <a href="" id="prev_step1"  class="">
+                                    <i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Previous
+                                </a>
+                                <a href="" id="next_step1"  class=" ">
+                                    Next&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- main -->
+        <!-- footer -->
+        <footer role="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="contact">
+                            <p class="copy-right" style="margin: 0">© 2020 Conversion Clock. All rights reserved.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="dropdown footer-menu-right">
+                            <a href="http://redreefpixel.co.uk/cjwitwordpress/Social/" class="footer-contact">
+                                <p class="" style="margin: 0">CONTACT</p>
+                            </a>
+                            <a href="javascript:void(0)" class="dropdown-toggle align-middle white-color footer-legal" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                                LEGALEESE
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#terms" role="menuitem" tabindex="-1" href="#">Terms</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#policy" role="menuitem" tabindex="-1" href="#">Policies</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#disclaimer" role="menuitem" tabindex="-1" href="#">Disclaimers</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#limits" role="menuitem" tabindex="-1" href="#">Limitations</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#license" role="menuitem" tabindex="-1" href="#">Use License</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#revision" role="menuitem" tabindex="-1" href="#">Revisions and Errata</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#links" role="menuitem" tabindex="-1" href="#">Links</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a class="pointers" data-toggle="modal" data-target="#governing" role="menuitem" tabindex="-1" href="#">Governing Law</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="foot-box">
+                            <div class="feed-text" id="open_mod">
+                                <button class="btn-white-border btn-block" data-toggle="modal" data-target="#survey"> OFFER FEEDBACK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- custom -->
+    <script src="js/nav.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/effects/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/effects/imagesloaded.js" type="text/javascript"></script>
+    <script src="js/effects/classie.js" type="text/javascript"></script>
+    <script src="js/effects/AnimOnScroll.js" type="text/javascript"></script>
+    <script src="js/effects/modernizr.custom.js"></script>
+    <!-- jquery.countdown -->
+    <script src="js/html5shiv.js" type="text/javascript"></script>
+    <script src="js/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+</body>
+
+</html>
